@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Guy Customizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Chill Guy Customizer</h1>
+
+    <div class="customizer-container">
+        <!-- Canvas for Chill Guy Image -->
+        <div id="canvas" class="canvas">
+            <img id="chillGuyImage" src="static/chillGuy.png" alt="Chill Guy">
+            <div id="customText" class="custom-text">Your Text Here</div>
+        </div>
+
+        <!-- Dropdown for Outfits -->
+        <label for="clothes-select">Change Outfit:</label>
+        <select id="clothes-select">
+            <option value="static/chillGuy.png">Default</option>
+            <option value="static/file.png">Outfit 1</option>
+            <option value="static/of2.png">Outfit 2</option>
+        </select>
+
+        <br><br>
+
+        <!-- Background Image Upload -->
+        <label for="bg-image-upload">Upload Background Image:</label>
+        <input type="file" id="bg-image-upload" accept="image/*">
+
+        <br><br>
+
+        <!-- Background Color Picker -->
+        <label for="bg-color">Change Background Color:</label>
+        <input type="color" id="bg-color" value="#f4f4f9">
+
+        <br><br>
+
+        <!-- Custom Text Input -->
+        <label for="text-input">Custom Text:</label>
+        <input type="text" id="text-input" placeholder="Enter your text">
+
+        <br><br>
+
+        <!-- Text Color Picker -->
+        <label for="text-color">Text Color:</label>
+        <input type="color" id="text-color" value="#000000">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
