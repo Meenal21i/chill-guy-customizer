@@ -102,3 +102,4 @@ document.addEventListener("mouseup", () => {
     isImageDragging = false;
     chillGuyImage.style.cursor = "move";
 });
+
