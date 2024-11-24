@@ -91,3 +91,22 @@ footer {
     background-color: #fff;
     color: #333;
 }
+/* Set body to use flexbox layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Ensure the footer is always at the bottom of the page */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    margin-top: auto; /* This pushes the footer to the bottom */
+}
